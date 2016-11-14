@@ -26,10 +26,9 @@
  }
 
  .header ul {
- 	position:relative;
  	margin: 0;
  	padding: 27px 370px 25px 310px;
- 	width:100px;
+ 	width:120px;
  	height:100%;
  	float:right;
  	display:inline-flex;
