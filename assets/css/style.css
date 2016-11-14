@@ -3,8 +3,6 @@
  	margin:0;
  }
 
-
-
  .header {
  	width:100%;
  	background-color: white;
@@ -85,12 +83,12 @@
  }
 
  .contacto {
- 	position:fixed;
+ 	position:relative;
+ 	float:left;
  	background-color:grey;
  	margin:20px;
- 	display:inline;
- 	bottom:312px;
- 	right:205px;
+ 	bottom:63.5%;
+ 	left:60%;
  	padding:0px 25px 25px 25px;
  	text-align:center;
  }
