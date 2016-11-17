@@ -58,9 +58,10 @@
  	position:fixed;
  	margin:0;
  	padding:0;
- 	height:800px;
+ 	height:100%;
  	background-color:#EFEFEF;
 	width:100%;
+
  }
 
  .content {
@@ -92,7 +93,7 @@
  	float:right;
  	background-color:white;
  	margin:20px;
- 	bottom: 95%;
+ 	bottom: 92%;
  	left:60%;
  	padding:0px 25px 25px 25px;
  	text-align:center;
@@ -107,8 +108,35 @@
 	
 }
 
-footer {
+
+#footer {
+	
+	position: absolute;
 	clear:both;
-	background-color: red;
-	text-align: center;
+	background-color: #666666;
+	border-top: 2px solid #4DABA5;
+	text-align: center;	
+ 	right: 0;
+ 	bottom: 0;
+  	left: 0;
+	
 }
+
+.input {
+     width: 100%;
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+textarea {
+     width: 100%;
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+
+
+
