@@ -68,9 +68,8 @@
  	padding:25px;
  	margin:40px 104px 20px 103px;
  	background-color:white;
-  	height:420px;
- 	width:600px; 
-
+ 	height:420px;
+ 	width:600px;
  }
 
 
@@ -94,7 +93,7 @@
  	float:right;
  	background-color:white;
  	margin:20px;
- 	bottom: 95%;
+ 	bottom: 92%;
  	left:60%;
  	padding:0px 25px 25px 25px;
  	text-align:center;
@@ -119,7 +118,7 @@
 	text-align: center;	
  	right: 0;
  	bottom: 0;
-  	left: 0; 
+  	left: 0;
 	
 }
 
