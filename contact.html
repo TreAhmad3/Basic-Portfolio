@@ -1,80 +1,63 @@
-
 <!doctype html>
 <html>
 <head>
-    <title>Contact</title>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="assets/css/stylecontact.css">
-
-    
-
+    <meta charset="UTF-8">
+    <title>Contact | Tre' Anderson-Davis</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fixed.css">
 </head>
-
 <body>
 
-    <div class="header">
-    <h2>Tre' Anderson-Davis</h2>
-        <div id="fix">
-            <ul style="list-style-type: none;">
-                <li><a href="index.html"> About </a></li>
-                <li><a href="portfolio.html"> Porfolio </a></li>
-                <li style="border-style: none;"><a href="contact.html"> Contact </a></li>    
-        
-            </ul>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Tre' Davis</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </div>
-        <br style="clear:both;">
+    </header>
 
-    <div class="content-wrap">
-        <div class="content">
-            <div class="about-me">
-            <h2>Contact</h2> 
-        <hr style="margin-bottom: 28px;">
-            <form action="contact_form">
-                Name <br>
-                <input class="input" type="text" name="FullName" value="Name"><br><br>
-                
-                Email <br>
-                <input class="input" type="text" name="FullName" value="example@email.com"><br><br>
-                
-                Message <br>
-                <textarea name="message" rows="5"></textarea><br><br>
- 
-                <input type="submit" value="Submit">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
 
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
             </form>
 
+        </section>
 
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
             </div>
-    
-            <div class="contacto">
-            <h2>Connect With Me</h2>
-        <hr style="margin-bottom: 28px;">
-
-
-          <!--set up some images here that will link to other professional webpages (linkedin, github, etc)-->
-
-            <a href="https://github.com/TreAhmad3"><img src="file:///Users/macuser/Basic-Portfolio/assets/images/github.png" alt="Tre" style="width:64px;height:64px;"></a> 
-
-            <a href="https://www.linkedin.com/in/tre-​-anderson-davis-80711a12a
-"><img src="file:///Users/macuser/Basic-Portfolio/assets/images/linkedin.png" alt="Tre" style="width:64px;height:64px;"></a> 
-
-            <a href="http://stackoverflow.com/users/6328026/t-kid"><img src="file:///Users/macuser/Basic-Portfolio/assets/images/stackover.png" alt="Tre" style="width:60px;height:60px;"></a> 
-
-            </div>
-      
-    </div>
-        <!--need to add a footer here--> 
-  
-
-</div>
-
-  <div id="footer">
-        <p>Copyright Tre' Davis</p>
+        </section>
     </div>
 
+    <footer>
+        <div class="container">
+            &copy; Copyright 2016 Tre' Anderson-Davis
+        </div>
+    </footer>
 </body>
 </html>
